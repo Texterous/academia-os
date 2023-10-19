@@ -1,6 +1,6 @@
 import { Col, Form, Input, Row, Space, Tag, Typography } from "antd"
 import React, { useEffect, useState } from "react"
-import logo from "../../favicon.png"
+import logo from "../../Texterous.png"
 import { PDFUpload } from "../PDFUpload"
 import { AcademicPaper } from "../../Types/AcademicPaper"
 import { SearchRepository } from "../../Services/SearchService"
@@ -71,7 +71,7 @@ const StepFind = (props: {
         <img
           alt='AcademiaOS'
           src={logo}
-          style={{ width: "50px", height: "50px", marginBottom: "-20px" }}
+          style={{ height: "70px", marginBottom: "-20px" }}
         />
         <Typography.Title>AcademiaOS</Typography.Title>
         <p style={{ marginTop: "-10px" }}>
